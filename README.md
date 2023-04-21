@@ -16,7 +16,7 @@ I don't like messy dotfiles. You can [read here](https://chr4.org/blog/2014/09/1
 
 ```bash
 cd
-git clone git://github.com/chr4/shellrc.git .shellrc
+git clone git@github.com:cbert-admin/shellbert.git .shellrc
 
 # bash config
 ln -sf .shellrc/bashrc .bashrc
