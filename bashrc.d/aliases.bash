@@ -8,4 +8,4 @@ alias bat="batcat"
 alias pull="git pull"
 
 alias ls="exa --icons --color=always"
-alias la="exa -alhGF --sort=ext --color=always --icons"
+alias la="exa -alhGF --sort=type --color=always --icons"
