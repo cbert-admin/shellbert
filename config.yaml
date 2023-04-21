@@ -1,0 +1,7 @@
+config:
+  backup: true
+  create: true
+  banner: true
+  dotpath: ~/.shellrc
+dotfiles:
+profiles:
