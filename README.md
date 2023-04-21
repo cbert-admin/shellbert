@@ -6,7 +6,6 @@ I don't like messy dotfiles. You can [read here](https://chr4.org/blog/2014/09/1
 
 * `~/.shellrc/rc.d` as an include.d style directory for scripts used by all shells
 * `~/.shellrc/bashrc.d` as an include.d style directory for bashrc scripts
-* `~/.shellrc/zsh.d` as an include.d style directory for zshrc scripts
 * `~/.shellrc/login.d` as an include.d style directory for shared zlogin/bash\_profile scripts
 * git repository information (current branch, current status) without external dependencies
 * colorful prompt
@@ -23,7 +22,3 @@ ln -sf .shellrc/bashrc .bashrc
 ln -sf .shellrc/bash_profile .bash_profile
 ln -sf .shellrc/inputrc .inputrc
 
-# zsh config
-ln -sf .shellrc/zshrc .zshrc
-ln -sf .shellrc/zlogin .zlogin
-```
