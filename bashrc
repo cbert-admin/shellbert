@@ -123,5 +123,5 @@ if ! shopt -oq posix; then
 fi
 
 source ~/.shellrc/liquidprompt/liquidprompt
-source ~/.shellrc/liquidprompt/themes/powerline/powerline.sh
+source ~/.shellrc/liquidprompt/themes/powerline/powerline.theme
 lp_theme powerline-full
