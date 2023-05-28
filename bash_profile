@@ -18,3 +18,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+#auto pull dotfiles from git
+cd ~/.shellrc && git pull >>/dev/null; cd ~
