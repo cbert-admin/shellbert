@@ -20,4 +20,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 #auto pull dotfiles from git
-cd ~/.shellrc && git pull >>/dev/null; cd ~
+cd ~/.shellrc && git pull >> /dev/null; cd ~
