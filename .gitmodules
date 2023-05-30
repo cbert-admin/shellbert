@@ -3,4 +3,4 @@
 	url = https://github.com/deadc0de6/dotdrop.git
 [submodule "liquidprompt"]
 	path = liquidprompt
-	url = https://github.com/nojhan/liquidprompt.git
+	url = https://github.com/cbert-admin/liquidprompt.git
