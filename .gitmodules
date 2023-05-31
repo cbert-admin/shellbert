@@ -1,3 +1,18 @@
 [submodule "liquidprompt"]
 	path = liquidprompt
 	url = https://github.com/cbert-admin/liquidprompt.git
+[submodule "rc.d/vim/pack/plugins/vim-airline"]
+	path = rc.d/vim/pack/plugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "rc.d/vim/pack/plugins/nerdtree"]
+	path = rc.d/vim/pack/plugins/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "rc.d/vim/pack/dist/start/vim-airline-themes"]
+	path = rc.d/vim/pack/dist/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "rc.d/vim/pack/plugins/start/vim-polyglot"]
+	path = rc.d/vim/pack/plugins/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "rc.d/vim/pack/themes/dracula"]
+	path = rc.d/vim/pack/themes/dracula
+	url = https://github.com/dracula/vim.git
