@@ -21,3 +21,6 @@ fi
 
 #auto pull dotfiles from git
 cd ~/.shellrc && git pull >> /dev/null; cd ~
+eval "$(/bin/brew shellenv)"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
