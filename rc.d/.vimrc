@@ -19,6 +19,9 @@ syntax enable
 packadd! dracula
 colorscheme dracula
 
+" Enable fzf
+set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
+
 " }}}
 
 
