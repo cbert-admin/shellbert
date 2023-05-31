@@ -12,6 +12,12 @@ augroup END
 " Show Line Numbers
 set number
 
+" Enable Syntax
+syntax enable
+
+" Set Colorscheme
+packadd! dracula
+colorscheme dracula
 
 " }}}
 
@@ -20,12 +26,22 @@ set number
 
 " Plugin code goes here.
 
+
+packadd! nerdtree
+packadd! vim-airline
+packadd! vim-airline-themes
+
+
+
 " }}}
 
 
 " MAPPINGS --------------------------------------------------------------- {{{
 
 " Mappings code goes here.
+
+" Map Ctrl-\ to toggle NerdTree Focus
+map <silent> <C-\> :NERDTreeFocus<CR>
 
 " }}}
 

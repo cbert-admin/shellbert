@@ -1,19 +1,27 @@
-dotsnag(){
-  shellrcgrab(){
+#Bash Functions
+
+shellrcgrab(){
   cd .shellrc
   git stash --include-untracked
   git pull
   cd ~
   }
 
-  lpgrab(){
+lpgrab(){
   cd .shellrc/liquidprompt
   git stash --include-untracked
   git pull
   cd ~
   }
+
+dotgrab(){
   shellrcgrab
-  lpgrab
+  for submodule in "$(cat ~/.shellrc/.gitmodules | grep "path = " | grep -v "path = ")"; do
+    cd ~/.shellrc/${submodule}
+    git stash --include-untracked
+    git pull --quiet
+  done
+  cd ~
 }
 
 updates(){
@@ -21,6 +29,5 @@ updates(){
   brew update
   cargo update
   gem update
-  shellrcgrab
-  lpgrab
+  dotgrab
 }
