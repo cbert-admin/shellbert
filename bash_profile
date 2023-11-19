@@ -19,6 +19,11 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+# set PATH so it includes cargo applications
+if [ -d "$HOME/.cargo/bin" ] ; then
+    PATH="$HOME/.cargo/bin:$PATH"
+fi
+
 #auto pull dotfiles from git
 cd ~/.shellrc && git pull >> /dev/null; cd ~
 eval "$(/bin/brew shellenv)"

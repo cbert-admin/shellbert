@@ -16,8 +16,8 @@ set number
 syntax enable
 
 " Set Colorscheme
-packadd! dracula
-colorscheme dracula
+:packadd dracula
+:colorscheme dracula
 
 " Enable fzf
 set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
@@ -30,13 +30,13 @@ set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
 " Plugin code goes here.
 
 
-packadd! nerdtree
-packadd! vim-airline
-packadd! vim-airline-themes
+:packadd nerdtree
+:packadd vim-airline
+:packadd vim-airline-themes
 
 
 
-" }}}
+"zo }}}
 
 
 " MAPPINGS --------------------------------------------------------------- {{{
